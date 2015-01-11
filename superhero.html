@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="j.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.pic').hide();
+            $('.pic').slideDown(1000);
+            $('.pic').click(function(){
+            $('.pic').css({height:'150px'});
+            $('#bg').fadeIn();
+        });
+        });
+        </script>
+    </head>
+    <body>
+       
+        <div  class="pic"  id="red"></div>
+        <div class="pic" id="blue"></div>
+        <div  class="pic" id="yellow"></div>
+        <div id="bg" style="display:none">
+    <div id="container1">
+        <ul id="scene">
+            
+          <li  class="layer" data-depth="0.20" id="wave-6"><img src="bat2.jpg"  ></li>
+
+           
+            <li  class="layer" data-depth="1.00" id="wave-7"><img src="bat1.png" id="ght" ></li>
+
+            
+
+            
+            
+        </ul>   
+    </div>  
+   
+</div>
+
+ 
+  
+   
+ 
+
+    <!-- Scripts -->
+    <script src="deploy/parallax.min.js"></script>
+    <script>
+
+    
+
+
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+
+    </script>
+        
+    </body>
+</html>

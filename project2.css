@@ -1,0 +1,36 @@
+.board.birds {
+  background-image: url(board-birds.png);
+}
+.board.cloud-1 {
+  background-image: url(board-cloud-1.png);
+}
+.board.cloud-2 {
+  background-image: url(board-cloud-2.png);
+}
+.board.cloud-3 {
+  background-image: url(board-cloud-1.png);
+}
+.board.cloud-4 {
+  background-image: url(board-cloud-2.png);
+}
+.light.orange {
+  background-image: url(light-orange.png);
+}
+.light.purple {
+  background-image: url(light-purple.png);
+}
+.wave.plain {
+  background-image: url(wave-plain.png);
+}
+.wave.paint {
+  background-image: url(wave-paint.png);
+}
+.background {
+  background: url(background.jpg) no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+}
